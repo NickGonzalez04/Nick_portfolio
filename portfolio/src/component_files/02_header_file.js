@@ -1,8 +1,8 @@
 import React from 'react';
-import './header.scss';
+import '../style_files/02_header.scss';
 
 // Components 
-import Nav from './nav_bar'
+import Nav from './01_nav_bar.js'
 
 export default function Header(){
 return(

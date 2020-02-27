@@ -29,6 +29,8 @@ export default function Contact(){
                     type='text'
                     placeholder='Message...' />
             </div>
+
+            <button type='submit'>Send Message</button>
         </div>
     )
 };
