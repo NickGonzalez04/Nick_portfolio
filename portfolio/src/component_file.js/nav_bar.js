@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './nav_bar.scss';
 
 
 export default function Nav(){
@@ -7,7 +7,7 @@ export default function Nav(){
 
     return(
 
-        <div>
+        <div className="header-nav">
             <div>
                 <a>Message</a>
             </div>
@@ -19,7 +19,5 @@ export default function Nav(){
             </div>
         </div>
     )
-
-
 
 };
