@@ -2,8 +2,12 @@ import React from 'react';
 
 
 // Imported Components 
-import Header from './componet_file.js/header_file.js'
-import Contact from './componet_file.js/contact_form.js'
+import Header from './component_files/02_header_file';
+import Contact from './component_files/04_contact_form.js';
+
+// Styles
+import './style_files/00_index.scss'
+
 
 function App() {
   return (
