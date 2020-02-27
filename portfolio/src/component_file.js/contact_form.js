@@ -4,12 +4,10 @@ import React from 'react';
 
 export default function Contact(){
 
-
-
     return(
         <div>
             <div>
-                <label for='email'>EMAIL: </label>
+                <label for='email'>Email: </label>
                 <input
                     value=''
                     type='email'
@@ -17,7 +15,7 @@ export default function Contact(){
                 />
             </div>
             <div>
-                <label for='name'>NAME: </label>
+                <label for='name'>Name: </label>
                 <input
                     value=''
                     type='text'
@@ -25,12 +23,12 @@ export default function Contact(){
                 />
             </div>
             <div>
-                <label for='fsubject'>SUBJECT: </label>
+                <label for='fsubject'>Message: </label>
                 <textarea
                     value=''
                     type='text'
-                    placeholder='Write Something here...' />
+                    placeholder='Message...' />
             </div>
         </div>
     )
-}
+};
