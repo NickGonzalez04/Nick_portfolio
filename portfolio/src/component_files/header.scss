@@ -4,7 +4,6 @@
     height: 30rem;
     width: 100%;
 
-
     h1{
         color:white;
         font-size: 2.2rem;
@@ -12,5 +11,25 @@
     }
     p{
         color: white;
+    }
+    .contact-btn{
+        background-color: #9885d1;
+        border: none;
+        border-radius: .7rem;
+        width: 18rem;
+        height: 5rem;
+        margin-top: 3rem;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    
+        &:hover{
+            background-color: #403461;
+        }
     }
 }

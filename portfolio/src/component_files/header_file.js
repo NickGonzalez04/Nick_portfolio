@@ -10,6 +10,9 @@ return(
     <Nav/>
     <h1>Nicholas Gonzalez</h1>
     <p>Software Developer</p>
+    <div>
+        <button className="contact-btn"><h1>Get In Touch</h1></button>
+    </div>
     </div>
     )
 };
