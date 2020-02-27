@@ -1,6 +1,7 @@
 import React from 'react';
 
-
+// Styles
+import '../style_files/04_contact.scss'
 
 export default function Contact(){
 
@@ -30,7 +31,7 @@ export default function Contact(){
                     placeholder='Message...' />
             </div>
 
-            <button type='submit'>Send Message</button>
+            <button type='submit' className='message'>Send Message</button>
         </div>
     )
 };
