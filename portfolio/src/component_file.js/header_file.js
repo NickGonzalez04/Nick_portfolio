@@ -5,7 +5,8 @@ import React from 'react';
 export default function Header(){
 return(
     <div>
-    <p>Header</p>
+    <h2>Nicholas Gonzalez</h2>
+    <p>Software Developer</p>
     </div>
     )
 };
