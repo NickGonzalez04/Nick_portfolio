@@ -13,15 +13,15 @@ import './style_files/00_index.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
         <Header />
         <Body />
         <Contact />
         <About />
       </header>
     </div>
-  );
+	);
 }
 
 export default App;
