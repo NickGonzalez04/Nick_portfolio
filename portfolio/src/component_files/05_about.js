@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style_files/05_about.scss'
 
 
 

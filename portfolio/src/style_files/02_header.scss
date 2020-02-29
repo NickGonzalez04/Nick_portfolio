@@ -4,14 +4,32 @@
     height: 30rem;
     width: 100%;
 
+
+.section{
+    display: flex;
+    .heading-section{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        height: 20rem;
+        justify-content: center;
     h1{
         color:white;
         font-size: 2.2rem;
         font-weight: 500;
+        
     }
     p{
         color: white;
     }
+}
+    .button-section{
+        display: flex;
+        margin: 4.5rem;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
     .contact-btn{
         background-color:  #8800FF ;
         border: none;
@@ -32,4 +50,6 @@
             background-color:  #9885d1;
         }
     }
+}
+}
 }

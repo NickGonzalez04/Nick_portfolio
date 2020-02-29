@@ -22,10 +22,10 @@ import '../style_files/04_contact.scss'
     }
 
     return(
-        <div>
+        <div className='contact-form'>
             <form onSubmit={handleSubmit}>
-            <div>
-                <label for='email'>Email: </label>
+            <div className="input-wrapper">
+            <div className="contact-input">
                 <input
                     type='email'
                     placeholder='Email'
@@ -33,8 +33,7 @@ import '../style_files/04_contact.scss'
                     onChange={handleChange}
                 />
             </div>
-            <div>
-                <label for='name'>Name: </label>
+            <div className="contact-input">
                 <input
                     type='text'
                     placeholder='Name'
@@ -42,12 +41,13 @@ import '../style_files/04_contact.scss'
                     onChange={handleChange}
                 />
             </div>
-            <div>
-                <label for='fsubject'>Message: </label>
+            </div>
+            <div className="message-input">
                 <textarea
                     value=''
                     type='text'
-                    placeholder='Message...' />
+                    placeholder='Message...'
+                 />
             </div>
             </form>
 
