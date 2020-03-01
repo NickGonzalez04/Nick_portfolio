@@ -17,7 +17,6 @@ import '../style_files/04_contact.scss'
     };
 
     const handleSubmit = e => {
-
         e.preventDefault();
     }
 
@@ -44,9 +43,11 @@ import '../style_files/04_contact.scss'
             </div>
             <div className="message-input">
                 <textarea
-                    value=''
+                    value={signUp.message}
                     type='text'
                     placeholder='Message...'
+                    onChange={handleChange}
+                    
                  />
             </div>
             </form>
