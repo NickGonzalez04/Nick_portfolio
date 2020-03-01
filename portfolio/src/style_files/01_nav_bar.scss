@@ -1,17 +1,27 @@
 .header-nav{
     display:flex;
-	align-items: center;
+	align-items: flex-start;
     height: 2rem;
     width: 100%;
-    align-items: flex-start;
+    justify-content: space-around;
     .tabs-nav{
         display:flex;
-        width: 4rem;
-        
+        width: 6rem;
+        height: 2rem;
+        border-radius: 5px 5px 5px 5px;
         a{
             text-decoration: none;
             font-weight: 600;
             color: white;
+            background-color:#8800FF;
+            width: 15rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px 0px 5px 5px;
+            &:hover{
+                background-color:  #9885d1;
+            }
         }
     }
 }

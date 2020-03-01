@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 // Styles
 import '../style_files/04_contact.scss'
@@ -18,6 +19,7 @@ import '../style_files/04_contact.scss'
 
     const handleSubmit = e => {
         e.preventDefault();
+        axios.post('')
     }
 
     return(
@@ -52,7 +54,7 @@ import '../style_files/04_contact.scss'
             </div>
             </form>
 
-            <button type='submit' className='message'>Send Message</button>
+            <button onClick={handleSubmit} className='message'>Send Message</button>
         </div>
     )
 };
