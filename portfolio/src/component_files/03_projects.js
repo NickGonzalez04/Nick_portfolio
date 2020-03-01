@@ -10,7 +10,7 @@ export default function Page() {
 
         <div className="projects">
             <h1>Projects</h1>
-            <hr className="line"></hr>
+            
             <div className="cards-container">
                 {project_info.map(projects=>(
                     <ProjectCard key={projects.project_title} projects={projects} />
