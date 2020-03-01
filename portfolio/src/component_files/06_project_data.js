@@ -6,7 +6,7 @@ export const project_info = [
 		img_path: 'need img',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/TheCovey',
-        tech_stack : 'ReactJS | React Router | Apollo Client | GraphQL | axios | date-fns | dotenv | jwt-decode | pusher-js | socket.io ',
+        tech_stack : 'ReactJS | React Router | Apollo Client | GraphQL | Axios | date-fns | dotenv | jwt-decode | pusher-js | socket.io ',
         tech_stack_2: 'Node.js | Express | graphql-yoga | Prisma | Apollo Server | Apollo Federation | bcryptjs | dotenv | jsonwebtoken | Stripe | jest | supertest | Apollo Server | Apollo Gateway |GraphQL '
 	},
 	{
@@ -16,7 +16,7 @@ export const project_info = [
 		img_path: 'need img',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/CS25-BuildWeek-JJTBN/Front-End',
-		tech_stack : 'ReactJS | React Router |Context API | Axios | styled-components | NES.css | pusher-js'
+		tech_stack : 'ReactJS | React Router | Context API | Axios | styled-components | NES.css | pusher-js'
 	},
 	{
         project_title: 'Create Your Own Adventure',

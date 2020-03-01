@@ -6,6 +6,9 @@ import '../style_files/04_contact.scss'
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({
+        // email: '',
+        // name: '',
+        // message: ''
      });
 
 
@@ -19,7 +22,12 @@ import '../style_files/04_contact.scss'
 
     const handleSubmit = e => {
         e.preventDefault();
-        axios.post('')
+        axios.post('http://localhost:4000/send', signUp)
+        .then(res => {
+            console.log("data",res);
+            // res.render('Success');
+        })
+        .catch(err => { console.log(err);})
     }
 
     return(
@@ -29,6 +37,7 @@ import '../style_files/04_contact.scss'
             <div className="contact-input">
                 <input
                     type='email'
+                    name='email'
                     placeholder='Email'
                     value={signUp.email}
                     onChange={handleChange}
@@ -37,8 +46,9 @@ import '../style_files/04_contact.scss'
             <div className="contact-input">
                 <input
                     type='text'
+                    name='name'
                     placeholder='Name'
-                    value={signUp.user_name}
+                    value={signUp.firstName}
                     onChange={handleChange}
                 />
             </div>
