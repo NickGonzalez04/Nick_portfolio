@@ -3,7 +3,7 @@ export const project_info = [
         project_title: 'Quality Hub - InterviewQ',
         project_link: 'https://wwww.explorequality.com',
 		role: 'Full Stack Developer',
-		img_path: 'need img',
+		img_path: '',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/TheCovey',
         tech_stack : 'ReactJS | React Router | Apollo Client | GraphQL | Axios | date-fns | dotenv | jwt-decode | pusher-js | socket.io ',
