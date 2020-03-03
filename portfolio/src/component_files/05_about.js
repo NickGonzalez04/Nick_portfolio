@@ -10,6 +10,9 @@ export default function About(){
             <h2>About</h2>
             </div>
             <p>Hi there! My Name is Nicholas Gonzalez and I am software developer. Check out my projects below!</p>
+            <p>
+              
+            </p>
         </div>
 
     )
