@@ -8,6 +8,15 @@
 	// flex-direction: column;
     justify-content: center;
     display: block;
+    .contact-header{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        h1{
+            font-size: 30px;
+            margin:2rem;
+        }
+    }
 
     .input-wrapper{
         display: flex;
