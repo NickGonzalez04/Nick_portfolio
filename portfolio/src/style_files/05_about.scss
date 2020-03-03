@@ -2,4 +2,15 @@
     background-color: #9885d1;
     color: white;
     height: 40rem;
+    .about-header{
+    
+            display: flex;
+            align-content: center;
+            align-items: center;
+            h1{
+                font-size: 30px;
+                margin:1.5rem;
+                font-weight: 600;
+            }    
+    }
 }

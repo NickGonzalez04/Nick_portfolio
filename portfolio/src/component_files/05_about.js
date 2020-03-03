@@ -10,9 +10,9 @@ import {AboutIcon} from '../assests_file/svg_file/00_about_Icon';
 export default function About(){
     return (
         <div className='about'>
-            <div>
+            <div className="about-header">
             <AboutIcon/>
-            <h2>About</h2>
+            <h1>About</h1>
             </div>
             <p>Hi there! My Name is Nicholas Gonzalez and I am software developer. Check out my projects below!</p>
             <p>

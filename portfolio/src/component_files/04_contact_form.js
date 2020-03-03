@@ -3,6 +3,7 @@ import axios from 'axios';
 
 // Styles
 import '../style_files/04_contact.scss'
+import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({
@@ -33,35 +34,38 @@ import '../style_files/04_contact.scss'
     return(
         <div className='contact-form'>
             <form onSubmit={handleSubmit}>
-            <div className="input-wrapper">
-            <div className="contact-input">
-                <input
-                    type='email'
-                    name='email'
-                    placeholder='Email'
-                    value={signUp.email}
-                    onChange={handleChange}
-                />
-            </div>
-            <div className="contact-input">
-                <input
-                    type='text'
-                    name='name'
-                    placeholder='Name'
-                    value={signUp.firstName}
-                    onChange={handleChange}
-                />
-            </div>
-            </div>
-            <div className="message-input">
-                <textarea
-                    value={signUp.message}
-                    type='text'
-                    placeholder='Message...'
-                    onChange={handleChange}
-                    
-                 />
-            </div>
+                <div className="contact-header">
+                    <GmailIcon />
+                    <h1>Contact Me!</h1>
+                </div>
+                    <div className="input-wrapper">
+                        <div className="contact-input">
+                            <input
+                                type='email'
+                                name='email'
+                                placeholder='Email'
+                                value={signUp.email}
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div className="contact-input">
+                            <input
+                                type='text'
+                                name='name'
+                                placeholder='Name'
+                                value={signUp.firstName}
+                                onChange={handleChange}
+                            />
+                        </div>
+                    </div>
+                    <div className="message-input">
+                        <textarea
+                            value={signUp.message}
+                            type='text'
+                            placeholder='Message...'
+                            onChange={handleChange}
+                        />
+                    </div>
             </form>
 
             <button onClick={handleSubmit} className='message'>Send Message</button>
