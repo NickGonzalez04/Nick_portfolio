@@ -1,19 +1,37 @@
 .header{
-    background-image: url('../assests_file/background.png');
+    background-image: url('../assests_file/png_file/background.png');
     background-size: cover;
     height: 30rem;
     width: 100%;
 
+
+.section{
+    display: flex;
+    .heading-section{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        height: 20rem;
+        justify-content: center;
     h1{
         color:white;
         font-size: 2.2rem;
         font-weight: 500;
+        
     }
     p{
         color: white;
     }
+}
+    .button-section{
+        display: flex;
+        margin: 4.5rem;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
     .contact-btn{
-        background-color: #9885d1;
+        background-color:  #8800FF ;
         border: none;
         border-radius: .7rem;
         width: 18rem;
@@ -21,7 +39,8 @@
         margin-top: 3rem;
 
         font-style: normal;
-        font-weight: bold;
+        font-weight: 700;
+        font-family: inherit;
         font-size: 2.4rem;
         line-height: 3.2rem;
         color: #ffffff;
@@ -29,7 +48,9 @@
         cursor: pointer;
     
         &:hover{
-            background-color: #403461;
+            background-color:  #9885d1;
         }
     }
+}
+}
 }

@@ -1,0 +1,26 @@
+.projects{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    h1{
+        justify-content: center;
+        display: flex;
+    }
+    .project-header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        h1{
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+    .cards-container{
+        width: 100%;
+        display: flex;
+        flex-direction: wrap;
+        justify-content: space-around;
+    }
+}
