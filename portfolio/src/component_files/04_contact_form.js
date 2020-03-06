@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
 import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
@@ -23,10 +23,10 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
     const handleSubmit = e => {
         e.preventDefault();
-        axios.post('http://localhost:4000/send', signUp)
+        axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
         .then(res => {
-            console.log("data",res);
-            // res.render('Success');
+            console.log(res);
+ 
         })
         .catch(err => { console.log(err);})
     }
@@ -61,6 +61,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
                     <div className="message-input">
                         <textarea
                             value={signUp.message}
+                            name='message'
                             type='text'
                             placeholder='Message...'
                             onChange={handleChange}
@@ -69,6 +70,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
             </form>
 
             <button onClick={handleSubmit} className='message'>Send Message</button>
+            <Loading/>
         </div>
     )
 };
