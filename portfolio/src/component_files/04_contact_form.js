@@ -11,6 +11,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
         // name: '',
         // message: ''
      });
+     const [isLoading, setIsLoading ] = useState(false);
 
 
     const handleChange = e => {
@@ -23,16 +24,23 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
     const handleSubmit = e => {
         e.preventDefault();
+        setIsLoading(true)
         axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
         .then(res => {
+            setIsLoading(false);
             console.log(res);
- 
         })
-        .catch(err => { console.log(err);})
+        .catch(err => { setIsLoading(false); console.log(err);})
     }
 
     return(
-        <div className='contact-form'>
+        <>
+        {isLoading ? (
+            <div>
+                <Loading/>
+                </div>
+                ):(
+        <div className='contact-form' >
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                     <GmailIcon />
@@ -70,8 +78,9 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
             </form>
 
             <button onClick={handleSubmit} className='message'>Send Message</button>
-            <Loading/>
         </div>
+           )}
+    </>
     )
 };
 
