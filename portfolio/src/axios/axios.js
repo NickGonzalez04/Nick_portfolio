@@ -4,7 +4,7 @@ export const axisWithAuth =()=>{
 
 
     return axios.create({
-        baseURL: 'http://localhost:4000',
+        baseURL: 'https://nick-portfoliobackend.herokuapp.com',
         headers:{
             'Content-type': 'application/json'
         }

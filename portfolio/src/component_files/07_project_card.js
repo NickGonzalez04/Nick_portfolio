@@ -4,9 +4,12 @@ import '../style_files/07_project_cards.scss'
 
 export default function ProjectCard({projects}){
 
+    console.log(projects)
 
 return (
         <div className="card-style">
+            <div className="project-image">
+            </div>
             <h1>{projects.project_title}</h1>
             <br></br>
             <h3>Front-End Tech Stack:</h3>

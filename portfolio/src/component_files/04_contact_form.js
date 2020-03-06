@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
 import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
@@ -11,6 +11,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
         // name: '',
         // message: ''
      });
+     const [isLoading, setIsLoading ] = useState(false);
 
 
     const handleChange = e => {
@@ -23,16 +24,23 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
     const handleSubmit = e => {
         e.preventDefault();
-        axios.post('http://localhost:4000/send', signUp)
+        setIsLoading(true)
+        axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
         .then(res => {
-            console.log("data",res);
-            // res.render('Success');
+            setIsLoading(false);
+            console.log(res);
         })
-        .catch(err => { console.log(err);})
+        .catch(err => { setIsLoading(false); console.log(err);})
     }
 
     return(
-        <div className='contact-form'>
+        <>
+        {isLoading ? (
+            <div>
+                <Loading/>
+                </div>
+                ):(
+        <div className='contact-form' >
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                     <GmailIcon />
@@ -61,6 +69,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
                     <div className="message-input">
                         <textarea
                             value={signUp.message}
+                            name='message'
                             type='text'
                             placeholder='Message...'
                             onChange={handleChange}
@@ -70,6 +79,8 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
             <button onClick={handleSubmit} className='message'>Send Message</button>
         </div>
+           )}
+    </>
     )
 };
 
