@@ -46,7 +46,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                     <GmailIcon />
-                    <h1>Contact Me!</h1>
+                    <h1>CONTACT ME</h1>
                 </div>
                     <div className="input-wrapper">
                         <div className="contact-input">
