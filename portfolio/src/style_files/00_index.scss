@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'SFProDisplay', 'Roboto', sans-serif;
+	background-color: #080213;
 }
 ol, ul {
 	list-style: none;
@@ -52,6 +53,7 @@ table {
 *{
 	margin: 0;
 	padding:0;
+	overflow-x: hidden;
 }
 
 

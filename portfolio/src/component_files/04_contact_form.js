@@ -35,12 +35,14 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
     return(
         <>
+        <div className='line2'></div>
         {isLoading ? (
             <div>
                 <Loading/>
                 </div>
                 ):(
         <div className='contact-form' >
+        
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                     <GmailIcon />
@@ -77,7 +79,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
                     </div>
             </form>
 
-            <button onClick={handleSubmit} className='message'>Send Message</button>
+            <button onClick={handleSubmit} className='message'>Send</button>
         </div>
            )}
     </>
