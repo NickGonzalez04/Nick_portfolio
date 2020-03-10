@@ -3,7 +3,7 @@ import React from 'react';
 
 // Styles and Icons
 import '../style_files/05_about.scss'
-import {AboutIcon} from '../assests_file/svg_file/00_about_Icon';
+import {AboutIcon} from '../assets_file/svg_file/00_about_Icon';
 
 
 
