@@ -1,26 +1,29 @@
 .header-nav{
     display:flex;
 	align-items: flex-start;
-    height: 2rem;
+    height: 4rem;
     width: 100%;
-    justify-content: space-around;
+    padding: 10px;
     .tabs-nav{
         display:flex;
+        margin: 20px 20px 5px 80px;
         width: 6rem;
         height: 2rem;
-        border-radius: 5px 5px 5px 5px;
+        
         a{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
             text-decoration: none;
-            font-weight: 600;
-            color: white;
-            background-color:#8800FF;
+            color: #FFFFFF;
             width: 15rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            border-radius: 0px 0px 5px 5px;
             &:hover{
-                background-color:  #9885d1;
+                border-bottom: 4px solid #6A03EE;
             }
         }
     }

@@ -5,13 +5,16 @@ import '../style_files/02_header.scss';
 import Nav from './01_nav_bar.js'
 
 export default function Header(){
+
+    
 return(
     <div className='header'>
         <Nav />
         <div className="section">
             <div className="heading-section">
+            <p>Software Developer</p>
                 <h1>Nicholas Gonzalez</h1>
-                <p>Software Developer</p>
+                
             </div>
             <div className='button-section'>
                 <button className="contact-btn"><h1>Get In Touch</h1></button>
