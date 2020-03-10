@@ -41,7 +41,7 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
                 <Loading/>
                 </div>
                 ):(
-        <div className='contact-form' >
+        <div id="contact" className='contact-form' >
         
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
