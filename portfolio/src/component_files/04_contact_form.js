@@ -3,7 +3,7 @@ import axios from 'axios';
 import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
-import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
+import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({
@@ -35,16 +35,18 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
 
     return(
         <>
+        <div className='line2'></div>
         {isLoading ? (
             <div>
                 <Loading/>
                 </div>
                 ):(
         <div className='contact-form' >
+        
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                     <GmailIcon />
-                    <h1>Contact Me!</h1>
+                    <h1>CONTACT ME</h1>
                 </div>
                     <div className="input-wrapper">
                         <div className="contact-input">
@@ -77,7 +79,7 @@ import {GmailIcon} from '../assests_file/svg_file/03_gmail_icon';
                     </div>
             </form>
 
-            <button onClick={handleSubmit} className='message'>Send Message</button>
+            <button onClick={handleSubmit} className='message'>Send</button>
         </div>
            )}
     </>

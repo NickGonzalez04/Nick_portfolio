@@ -9,18 +9,23 @@
     }
     .project-header{
         display: flex;
+        align-content: center;
         align-items: center;
-        flex-direction: column;
-        
+        height: 10rem; 
+        width: 25%;
+        margin-left: 13.25rem;
         h1{
-            font-size: 30px;
-            font-weight: 600;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            font-variant: small-caps;
+            color: #FFFFFF;
         }
     }
     .cards-container{
         width: 100%;
-        display: flex;
-        flex-direction: wrap;
-        justify-content: space-around;
+        margin-left: 13.50rem;
     }
 }
