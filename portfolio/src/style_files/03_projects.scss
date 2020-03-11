@@ -1,11 +1,13 @@
 .project{
-
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     .project-header{
         display: flex;
         align-content: center;
         align-items: center;
-        width: 42%;
-        justify-content: center;
+        width: 1220px;
+        justify-content: flex-start;
 
         h1{
             font-family: Roboto;
@@ -18,14 +20,14 @@
         }
     }
     .project-body{
-        width: 100%;
+        max-width: 1240px;
         display: flex;
-        justify-content: center;
+        
+        
     .projects{
         margin-top: 2rem;
         display: flex;
         flex-wrap: wrap;
-
         width: 100%;
         
         h1{
@@ -34,11 +36,7 @@
         
         .cards-container{
             width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        
-
+    
             }
         }
     }

@@ -41,8 +41,8 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
                 <Loading/>
                 </div>
                 ):(
-        <div id="contact" className='contact-form' >
-        
+        <div id="contact" className="Form">
+        <div className='contact-form' >
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
                 <div className="contact-h1">
@@ -87,8 +87,10 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
 
             <button onClick={handleSubmit} className='message'>Send</button>
         </div>
+        </div>
            )}
     </>
+
     )
 };
 

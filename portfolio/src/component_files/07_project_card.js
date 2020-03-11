@@ -16,7 +16,7 @@ export default function ProjectCard({ projects }){
                 <br></br>
                 <h3>Front-End Tech Stack:</h3>
                 <p>{projects.tech_stack}</p>
-
+                <br></br>
                 <h3>Back-End Tech Stack:</h3>
                 <p>{projects.tech_stack_2}</p>
             </div>

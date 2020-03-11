@@ -15,7 +15,7 @@
     }
 
     .project-info{
-        width: 30%;
+        width: 50%;
         h1{
             font-family: Roboto;
             font-style: normal;
@@ -25,10 +25,24 @@
             color: #FFFFFF;
         }
         h3{
-            color: #FFFFFF;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: .5rem;
+
+            color: rgba(255, 255, 255, 0.8);
+
         }
         p{
-            color: #FFFFFF;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: rgba(255, 255, 255, 0.8);
         }
     }
     }

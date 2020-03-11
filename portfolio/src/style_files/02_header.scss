@@ -10,10 +10,11 @@
 .section{
     display: flex;
     justify-content: center;
+    max-width: 1350px;
     .heading-section{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 65%;
         align-items: center;
         height: 20rem;
         justify-content: center;
@@ -48,7 +49,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        width: 50%;
+        width: 38%;
     .contact-btn{
         background-color:  #8800FF ;
         border: none;

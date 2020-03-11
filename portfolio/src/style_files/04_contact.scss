@@ -7,14 +7,19 @@
 //     left: 11rem;
 //     top: 120rem;
 // }
-.contact-form{
-    width: 86%;
-	height: 40rem;
-	margin: 4rem 4rem 2rem 13.25rem;
-	display: flex;
-	overflow: hidden;
+.Form{
+    display:flex;
     justify-content: center;
+.contact-form{
+    max-width:1240px;
+	height: 40rem;
+	margin: 4rem 0rem 2rem 2rem;
+	overflow: hidden;
     display: block;
+    form{
+       max-width: 1240px;
+    
+    }
 
     .contact-header{
         display: flex;
@@ -52,10 +57,10 @@
     .input-wrapper{
         display: flex;
         flex-direction: row;
-        // margin: 3rem 2rem 0;
+
 
 .contact-input{
-    width: 44.4%;
+    width: 720px;
     margin-bottom: 1rem;
         input{
             margin: .5rem 0rem .5rem 0rem;
@@ -92,7 +97,7 @@ textarea{
     opacity: 1;
     color: rgba(255, 255, 255, 0.8);
     border-radius: 0.4rem;
-    width: 80%;
+    width: 90%;
     height: 18rem;
     padding: 1rem 1rem;
     border-color: #080213;
@@ -120,7 +125,6 @@ textarea{
     
         &:hover{
             background-color: #9885d1;
-        }
-
-       
+        }       
+}
 }
