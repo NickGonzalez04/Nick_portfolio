@@ -1,8 +1,8 @@
 import React from 'react';
-import '../style_files/01_nav_bar.scss';
+import '../style_files/09_footer.scss';
 
 
-export default function Nav(){
+export default function Footer(){
 
 
     return(

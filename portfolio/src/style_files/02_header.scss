@@ -1,37 +1,55 @@
 .header{
-    background-image: url('../assets_file/png_file/Vector.png');
-    background-size: contain;
-    height: 50rem;
+    background-image: url('/images/Vector.png');
+    height: auto;
     width: 100%;
     background-color: #080213;
+
     
 
 
 .section{
     display: flex;
+    justify-content: center;
+    max-width: 1350px;
     .heading-section{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 65%;
         align-items: center;
         height: 20rem;
         justify-content: center;
-    h1{
-        color:white;
-        font-size: 2.2rem;
-        font-weight: 500;
-        
-    }
-    p{
-        color: white;
-    }
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            font-variant: small-caps;
+            color: white;
+            width: 500px;
+            margin-bottom: 1rem;
+        }
+        h1{ 
+            color:white;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 70px;
+            width: 602px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            
+        }
+
 }
     .button-section{
         display: flex;
-        margin: 4.5rem;
         justify-content: center;
         align-content: center;
-        width: 50%;
+        align-items: center;
+        width: 38%;
     .contact-btn{
         background-color:  #8800FF ;
         border: none;

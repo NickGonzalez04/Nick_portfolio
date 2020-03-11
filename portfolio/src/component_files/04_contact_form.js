@@ -41,13 +41,19 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
                 <Loading/>
                 </div>
                 ):(
+        <div id="contact" className="Form">
         <div className='contact-form' >
-        
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
+                <div className="contact-h1">
                     <GmailIcon />
                     <h1>CONTACT ME</h1>
+                    </div>
+                    <div className="contact-p">
+                    <p>Feel free to contact me via LinkedIn, Twitter, or Email. I would love to connect with you. You can see my resume here. </p>
+                    </div>
                 </div>
+
                     <div className="input-wrapper">
                         <div className="contact-input">
                             <input
@@ -81,8 +87,10 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
 
             <button onClick={handleSubmit} className='message'>Send</button>
         </div>
+        </div>
            )}
     </>
+
     )
 };
 

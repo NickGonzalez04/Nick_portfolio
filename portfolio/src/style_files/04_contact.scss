@@ -4,38 +4,63 @@
 //     border: 2px solid #6A03EE;
 //     transform: rotate(90deg);
 
-//     left: 25px;
-//     top: 890px;
+//     left: 11rem;
+//     top: 120rem;
 // }
-.contact-form{
-    width: 100%;
-	// max-width: 36.4rem;
-	height: 37.4rem;
-	margin: 4rem 4rem 2rem 13.25rem;
-	display: flex;
-	// flex-direction: column;
+.Form{
+    display:flex;
     justify-content: center;
+.contact-form{
+    max-width:1240px;
+	height: 40rem;
+	margin: 4rem 0rem 2rem 2rem;
+	overflow: hidden;
     display: block;
+    form{
+       max-width: 1240px;
+    
+    }
 
     .contact-header{
         display: flex;
-        align-content: center;
-        align-items: center;
+        flex-direction: column;
+
+        .contact-h1{
+            display:flex;
+            align-items: center;
         h1{
-            font-size: 30px;
-            margin:1.5rem;
-            font-weight: 600;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            font-variant: small-caps;
             color: white;
         }
     }
+    .contact-p{
+        p{  
+            height: 4rem;
+            width: 60%;
+            margin-bottom: .25rem;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: white;  
+        }
+    }
+ }
 
     .input-wrapper{
         display: flex;
         flex-direction: row;
-        // margin: 3rem 2rem 0;
+
 
 .contact-input{
-    width: 44.4%;
+    width: 720px;
     margin-bottom: 1rem;
         input{
             margin: .5rem 0rem .5rem 0rem;
@@ -43,7 +68,7 @@
             width: 80%;
             border: 1px solid #dadce0;
             border-color: #080213;
-            background: rgba(30, 30, 32, 0.6);
+            background: rgba(30, 30, 32, 1);
             color: rgba(255, 255, 255, 0.8);
             border-radius: 0.4rem;
 
@@ -67,10 +92,12 @@ textarea{
     line-height: 21px;
 
 
-    background: rgba(30, 30, 32, 0.6);
+    background: rgba(30, 30, 32, 1);
+    // background: none;
+    opacity: 1;
     color: rgba(255, 255, 255, 0.8);
     border-radius: 0.4rem;
-    width: 80%;
+    width: 90%;
     height: 18rem;
     padding: 1rem 1rem;
     border-color: #080213;
@@ -98,7 +125,6 @@ textarea{
     
         &:hover{
             background-color: #9885d1;
-        }
-
-       
+        }       
+}
 }
