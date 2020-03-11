@@ -6,7 +6,7 @@ export const project_info = [
 		project_link: 'https://wwww.explorequality.com',
 		description: 'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
 		role: 'Full Stack Developer',
-		role_info: 'Contributed cross functionally between Front and Back End, Implemented Stripe technology on front and back end',
+		role_info: 'Contributed cross functionally between Front and Back End on a 7 person team, Conducted research and applied features of microservice technology with Apollo-Gatway through front and back end applications, Implemented Stripe technology features on front and back end',
 		img_src: '/images/Qualityhub.png',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/TheCovey',
