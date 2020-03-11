@@ -6,10 +6,11 @@ export const project_info = [
 		project_link: 'https://wwww.explorequality.com',
 		description: 'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
 		role: 'Full Stack Developer',
-		role_info: 'Contributed cross functionally between Front and Back End on a 7 person team, Conducted research and applied features of microservice technology with Apollo-Gatway through front and back end applications, Implemented Stripe technology features on front and back end',
+		role_info: 'Contributed cross functionally between Front and Back End on a 7 person team, Conducted research and applied features of microservice technology with Apollo-Gatway through front and back end applications, Took lead integrating Stripe technology features on front and back end, Designed Schema database and wrote resolvers for InterviewQ backend, Conducted TDD on QualityHub core backend ',
 		img_src: '/images/Qualityhub.png',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/TheCovey',
+		marketing_vid: 'https://www.youtube.com/watch?v=xksru1VUZd0&feature=youtu.be',
         tech_stack : 'ReactJS | React-Router | Apollo-Client | GraphQL | Axios | date-fns | dotenv | jwt-decode | pusher-js | socket.io ',
         tech_stack_2: 'Node.js | Express | graphql-yoga | Prisma | Apollo Server | Apollo Federation | bcryptjs | dotenv | jsonwebtoken | Stripe | jest | supertest | Apollo Server | Apollo Gateway |GraphQL '
 	},
@@ -23,7 +24,7 @@ export const project_info = [
 		link_title: 'GitHub',
 		link_url: 'https://github.com/CS25-BuildWeek-JJTBN/Front-End',
 		tech_stack : 'ReactJS | React Router | Context API | Axios | styled-components | NES.css | pusher-js',
-		tech_stack_2: 'Pyhton | Django ',
+		tech_stack_2: 'Python | Django ',
 	},
 	{
         project_title: 'Create Your Own Adventure',

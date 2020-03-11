@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../style_files/07_project_cards.scss'
 import {GitHub} from '../assets_file/svg_file/02_github_icon'
+import { Play } from '../assets_file/svg_file/10_play_buuton';
 
 export default function ProjectCard({ projects }){
 
@@ -28,6 +29,12 @@ export default function ProjectCard({ projects }){
                         <p>{projects.tech_stack_2}</p>
                     <a href={projects.link_url}>
                         <GitHub />
+                    </a>
+                    <a href={projects.project_link}>
+                        <img src='/images/Link.png' alt='Link to website' />
+                    </a>
+                    <a href={projects.marketing_vid}>
+                        {projects.marketing_vid ? <Play/> : ''}
                     </a>
             </div>
         </div>
