@@ -14,7 +14,7 @@ export default function About(){
             <AboutIcon/>
             <h1>About</h1>
             </div>
-            <p>Hi there! My Name is Nicholas Gonzalez and I am software developer. Check out my projects below!</p>
+            {/* <p>Hi there! My Name is Nicholas Gonzalez and I am software developer. Check out my projects below!</p> */}
             <p>
               
             </p>

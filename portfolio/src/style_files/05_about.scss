@@ -5,11 +5,15 @@
     height: 40rem;
     display: flex;
     justify-content: center;
+    // width: 80%;
+    // border-top: .5px solid white;
     .about-header{
             display: flex;
             align-content: center;
+            justify-content: center;
             align-items: center;
-            
+            border-top: .5px solid white;
+            width: 85%;
             h1{
                 font-size: 30px;
                 margin:1.5rem;
