@@ -10,11 +10,14 @@ export default function ProjectCard({ projects }){
     return (
         <div className="card-style">
             <div className="project-image">
+            <a className="photo" href={projects.project_link}>
             <img src={projects.img_src} alt="project image"/>
+            </a>
             </div>
             <div className="project-info">
                 <h1>{projects.project_title}</h1>
                 <br></br>
+                <h1>Role: {projects.role}</h1>
                 <h3>Front-End Tech Stack:</h3>
                 <p>{projects.tech_stack}</p>
                 <br></br>

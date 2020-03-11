@@ -15,6 +15,7 @@ export const project_info = [
         project_title: 'Legend Of Lambda',
         project_link: 'https://lambdalegend.netlify.com/',
 		role: 'Front-End Developer',
+		role_info: 'Wrote front-end authentication',
 		img_src: '/images/Legend_Of_Lambda.png',
 		link_title: 'GitHub',
 		link_url: 'https://github.com/CS25-BuildWeek-JJTBN/Front-End',
