@@ -1,6 +1,8 @@
 
 .card-style{
     display: flex;
+    justify-content: center;
+    width: 100%;
 
 
     .project-image{
@@ -8,23 +10,39 @@
         img {
             width: 532px;
             height: 322px;
-        }      
-         }
+        }   
+
+    }
 
     .project-info{
-        width: 428px;
+        width: 50%;
         h1{
-            justify-content: center;
-            display: flex;
-            margin-top:1rem;
-            font-size: 20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
             color: #FFFFFF;
         }
         h3{
-            color: #FFFFFF;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: .5rem;
+
+            color: rgba(255, 255, 255, 0.8);
+
         }
         p{
-            color: #FFFFFF;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: rgba(255, 255, 255, 0.8);
         }
     }
     }
