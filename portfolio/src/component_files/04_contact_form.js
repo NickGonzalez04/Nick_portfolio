@@ -45,9 +45,15 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
         
             <form onSubmit={handleSubmit}>
                 <div className="contact-header">
+                <div className="contact-h1">
                     <GmailIcon />
                     <h1>CONTACT ME</h1>
+                    </div>
+                    <div className="contact-p">
+                    <p>Feel free to contact me via LinkedIn, Twitter, or Email. I would love to connect with you. You can see my resume here. </p>
+                    </div>
                 </div>
+
                     <div className="input-wrapper">
                         <div className="contact-input">
                             <input

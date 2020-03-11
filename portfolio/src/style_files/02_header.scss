@@ -1,14 +1,15 @@
 .header{
-    background-image: url('../assets_file/png_file/Vector.png');
-    background-size: contain;
-    height: 50rem;
+    background-image: url('/images/Vector.png');
+    height: auto;
     width: 100%;
     background-color: #080213;
+
     
 
 
 .section{
     display: flex;
+    justify-content: center;
     .heading-section{
         display: flex;
         flex-direction: column;
@@ -24,8 +25,8 @@
             line-height: 28px;
             font-variant: small-caps;
             color: white;
-            width: 300px;
-            margin: 1.5rem;
+            width: 500px;
+            margin-bottom: 1rem;
         }
         h1{ 
             color:white;
@@ -34,8 +35,10 @@
             font-weight: bold;
             font-size: 60px;
             line-height: 70px;
-            width: 502px;
+            width: 602px;
             display: flex;
+            justify-content: center;
+            overflow: hidden;
             
         }
 

@@ -1,12 +1,15 @@
 .about{
+    background-image: url('/images/Vector.png');
     background-color: #080213;
     color: white;
     height: 40rem;
+    display: flex;
+    justify-content: center;
     .about-header{
-    
             display: flex;
             align-content: center;
             align-items: center;
+            
             h1{
                 font-size: 30px;
                 margin:1.5rem;

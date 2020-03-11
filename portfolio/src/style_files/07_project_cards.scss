@@ -1,6 +1,8 @@
 
 .card-style{
     display: flex;
+    justify-content: center;
+    width: 100%;
 
 
     .project-image{
@@ -8,16 +10,18 @@
         img {
             width: 532px;
             height: 322px;
-        }      
-         }
+        }   
+
+    }
 
     .project-info{
-        width: 428px;
+        width: 30%;
         h1{
-            justify-content: center;
-            display: flex;
-            margin-top:1rem;
-            font-size: 20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
             color: #FFFFFF;
         }
         h3{

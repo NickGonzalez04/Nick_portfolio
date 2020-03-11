@@ -1,19 +1,12 @@
-.projects{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    
-    h1{
-        justify-content: center;
-        display: flex;
-    }
+.project{
+
     .project-header{
         display: flex;
         align-content: center;
         align-items: center;
-        height: 10rem; 
-        width: 25%;
-        margin-left: 13.25rem;
+        width: 42%;
+        justify-content: center;
+
         h1{
             font-family: Roboto;
             font-style: normal;
@@ -24,8 +17,29 @@
             color: #FFFFFF;
         }
     }
-    .cards-container{
+    .project-body{
         width: 100%;
-        margin-left: 13.50rem;
+        display: flex;
+        justify-content: center;
+    .projects{
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 100%;
+        
+        h1{
+            display: flex;
+        }
+        
+        .cards-container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+
+            }
+        }
     }
 }

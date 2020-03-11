@@ -8,7 +8,7 @@ export default function Header(){
 
 
 return(
-    <div className='header'>
+        <div className='header'>
         <Nav />
         <div className="section">
             <div className="heading-section">
@@ -21,5 +21,6 @@ return(
             </div>
         </div>
     </div>
+
     )
 };
