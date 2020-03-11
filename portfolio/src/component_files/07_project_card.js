@@ -16,8 +16,10 @@ export default function ProjectCard({ projects }){
             </div>
             <div className="project-info">
                 <h1>{projects.project_title}</h1>
+                <p>{projects.descripition}</p>
                 <br></br>
                 <h1>Role: {projects.role}</h1>
+                <p>{projects.role_info}</p>
                 <h3>Front-End Tech Stack:</h3>
                 <p>{projects.tech_stack}</p>
                 <br></br>
