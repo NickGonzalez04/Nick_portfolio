@@ -3,9 +3,11 @@
 	justify-content: center;
     height: 4rem;
     width: 100%;
+    padding: 10px;
 
     .tabs-container{
         display: flex;
+        align-content: center;
         align-items: flex-start;
         width: 50%;
         
