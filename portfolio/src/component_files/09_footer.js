@@ -11,6 +11,7 @@ export default function Footer(){
     return(
 
         <div className="footer-nav">
+            <div className="tabs-container">
             <div className="tabs-nav">
                 <a href="#about">About</a>
             </div>
@@ -19,6 +20,7 @@ export default function Footer(){
             </div>
             <div className="tabs-nav">
                 <a href="#contact">Contact</a>
+            </div>
             </div>
             <div className="icons">
             <a href='https://www.linkedin.com/in/nicholas-gonzalez-0541bb111/'>
