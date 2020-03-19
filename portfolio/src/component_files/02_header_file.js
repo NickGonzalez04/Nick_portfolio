@@ -17,7 +17,9 @@ return(
                 
             </div>
             <div className='button-section'>
+            <a href="#contact">
                 <button type="submit" className="contact-btn"><h1>Get In Touch</h1></button>
+            </a>
             </div>
         </div>
     </div>
