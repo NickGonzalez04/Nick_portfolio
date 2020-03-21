@@ -3,7 +3,7 @@ import axios from 'axios';
 import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
-import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
+import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({});

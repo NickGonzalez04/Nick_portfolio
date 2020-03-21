@@ -1,4 +1,4 @@
-// import { url } from "inspector";
+
 
 export const project_info = [
 	{
