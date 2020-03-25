@@ -32,10 +32,10 @@ import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
 
     return(
         <>
-             <div className='line2'></div>
              {isLoading ? (
-                 <div>
+                 <div className="loadingComp">
                      <Loading />
+                     <h1>Message Sending...</h1>
                  </div>
              ) : (
                      <div id="contact" className="Form">
