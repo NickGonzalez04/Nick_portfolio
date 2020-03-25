@@ -1,12 +1,21 @@
-// .line2{
-//     position: absolute;
-//     width: 80px;
-//     border: 2px solid #6A03EE;
-//     transform: rotate(90deg);
+.loadingComp{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 25px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+}
 
-//     left: 11rem;
-//     // top: 120rem;
-// }
 .Form{
     display:flex;
     justify-content: center;
@@ -50,6 +59,10 @@
             font-size: 20px;
             line-height: 25px;
             color: white;  
+        }
+        a{
+            color: white;
+
         }
     }
  }

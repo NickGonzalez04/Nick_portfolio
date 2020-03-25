@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Loading from './08_loader';
+import Resume from '../document/Nicholas_Gonzalez_Resume_2020.pdf'
 // Styles
 import '../style_files/04_contact.scss'
-import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
+import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({});
@@ -31,10 +32,10 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
 
     return(
         <>
-             <div className='line2'></div>
              {isLoading ? (
-                 <div>
+                 <div className="loadingComp">
                      <Loading />
+                     <h1>Message Sending...</h1>
                  </div>
              ) : (
                      <div id="contact" className="Form">
@@ -46,7 +47,7 @@ import {GmailIcon} from '../assets_file/svg_file/03_gmail_icon';
                                          <h1>CONTACT ME</h1>
                                      </div>
                                      <div className="contact-p">
-                                         <p>Feel free to contact me via LinkedIn, Twitter, or Email. I would love to connect with you. You can see my resume here. </p>
+                                         <p>Feel free to contact me via LinkedIn, Twitter, or Email. I would love to connect with you! You can see my resume <a className="resume" href={Resume}>here.</a> </p>
                                      </div>
                                  </div>
 

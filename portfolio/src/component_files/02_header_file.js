@@ -13,8 +13,7 @@ return(
         <div className="section">
             <div className="heading-section">
             <p>Software Developer</p>
-                <h1>Nicholas Gonzalez</h1>
-                
+                <h1>Nicholas Gonzalez</h1>          
             </div>
             <div className='button-section'>
             <a href="#contact">
