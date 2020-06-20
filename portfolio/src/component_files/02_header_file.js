@@ -12,7 +12,7 @@ return(
         <Nav />
         <div className="section">
             <div className="heading-section">
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
                 <h1>Nicholas Gonzalez</h1>          
             </div>
             <div className='button-section'>
