@@ -5,7 +5,6 @@ import React from 'react';
 import Header from './component_files/02_header_file';
 import Body from './component_files/03_projects';
 import Contact from './component_files/04_contact_form.js';
-import About from './component_files/05_about.js';
 import Footer from './component_files/09_footer';
 
 // Styles
