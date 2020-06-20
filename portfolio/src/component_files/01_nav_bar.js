@@ -9,9 +9,6 @@ export default function Nav(){
 
         <div className="header-nav">
             <div className="tabs-nav">
-                <a href="#about">About</a>
-            </div>
-            <div className="tabs-nav">
                 <a href="#projects">Projects</a>
             </div>
             <div className="tabs-nav">
