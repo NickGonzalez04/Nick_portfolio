@@ -13,9 +13,6 @@ export default function Footer(){
         <div className="footer-nav">
             <div className="tabs-container">
             <div className="tabs-nav">
-                <a href="#about">About</a>
-            </div>
-            <div className="tabs-nav">
                 <a href="#projects">Projects</a>
             </div>
             <div className="tabs-nav">
