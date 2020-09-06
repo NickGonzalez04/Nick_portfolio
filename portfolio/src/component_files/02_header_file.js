@@ -12,8 +12,8 @@ return(
         <Nav />
         <div className="section">
             <div className="heading-section">
-            <p>Software Engineer</p>
-                <h1>Nicholas Gonzalez</h1>          
+                <h1>Hi, I'm Nicholas,
+                    <br></br> Software Engineer living in South Florida ☀️ 🌴 </h1>          
             </div>
             <div className='button-section'>
             <a href="#contact">
