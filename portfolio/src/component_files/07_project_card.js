@@ -19,14 +19,14 @@ export default function ProjectCard({ projects }){
                 <h1>{projects.project_title}</h1>
                     <p>{projects.description}</p>
                         <br />
-                        <h1>Role: {projects.role}</h1>
-                        <p>{projects.role_info}</p>
+                        {/* <h1>Role: {projects.role}</h1> */}
+                        {/* <p>{projects.role_info}</p>
                         <br />
                         <h3>Front-End Tech Stack:</h3>
                         <p>{projects.tech_stack}</p>
                         <br />
                         <h3>Back-End Tech Stack:</h3>
-                        <p>{projects.tech_stack_2}</p>
+                        <p>{projects.tech_stack_2}</p> */}
                     <a href={projects.link_url}>
                         <GitHub />
                     </a>

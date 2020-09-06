@@ -4,7 +4,7 @@
 # Personal Portfolio 
 
 <br>
-![Portfolio Sample](./portfolio/src/assets_file/png_file/portfolio_sample.png)
+![Image](./portfolio/src/assets_file/png_file/portfolio_sample.png)
 <br>
 
 ## Table of Contents
@@ -12,6 +12,7 @@
 - [Getting Started](#getting-started)
 - [Stack](#stack)
 - [Author](#author)  
+
 ## Getting Started 
 
 - Fork or directly clone this repository to your local machine
