@@ -30,7 +30,6 @@
 
 - [React](https://reactjs.org/)
 - [React Router](https://github.com/ReactTraining/react-router)
-- [React Conflux](https://github.com/dustinmyers/react-conflux)
 - [Styled Components](https://www.styled-components.com/)
 - [Axios](https://www.npmjs.com/package/axios)
 

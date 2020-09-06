@@ -1,54 +1,52 @@
-.header{
-    height: auto;
-    max-width: 1300px;
-    background-color: white;
-    margin: 0% 10% 0% 10%;
+.header {
+	height: auto;
+	max-width: 1500px;
+	background-color: white;
+	margin: 0% 10% 0% 10%;
 
-.section{
-    display: flex;
-    justify-content: flex-start;
-    width:100%;
-    .heading-section{
-        display: flex;
-        flex-direction: column;
-        width: 55%;
-        height: 20rem;
-        justify-content: center;
-        
-        h1{ 
-            color:black;
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 40px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            overflow: hidden;   
-        }
-        .contact-btn{
-            background-color:  #6A03EE;
-            border: none;
-            border-radius: .7rem;
-            width: 18rem;
-            height: 5rem;
-            margin-top: 3rem;
-            font-style: normal;
-            font-weight: 500;
-            font-family: inherit;
-            font-size: 2rem;
-            line-height: 3.2rem;
-            color: #ffffff;
-            text-align: center;
-            cursor: pointer;
-        
-            &:hover{
-                background-color:  #9885d1;
-            }
-        
-        }
-}
-    
-}
+	.section {
+		
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+		.heading-section {
+			display: flex;
+			flex-direction: column;
+			width: 55%;
+			height: 20rem;
+			justify-content: center;
+
+			h1 {
+				color: black;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 30px;
+				line-height: 40px;
+				width: 100%;
+				display: flex;
+				overflow: hidden;
+			}
+			.contact-btn {
+				background-color: #6a03ee;
+				border: none;
+				border-radius: 0.7rem;
+				width: 18rem;
+				height: 5rem;
+				margin-top: 3rem;
+				font-style: normal;
+				font-weight: 500;
+				font-family: inherit;
+				font-size: 2rem;
+				line-height: 3.2rem;
+				color: #ffffff;
+				text-align: center;
+				cursor: pointer;
+
+				&:hover {
+					background-color: #9885d1;
+				}
+			}
+		}
+	}
 }
