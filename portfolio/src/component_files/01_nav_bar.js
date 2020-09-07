@@ -13,6 +13,9 @@ export default function Nav(){
                     <a href="#projects">Projects</a>
                 </div>
                 <div className="tabs-nav">
+                    <a href="#projects">Resume</a>
+                </div>
+                <div className="tabs-nav">
                     <a href="#contact">Contact</a>
                 </div>
                 <div className="tabs-nav">
