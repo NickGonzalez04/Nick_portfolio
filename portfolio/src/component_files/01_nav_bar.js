@@ -17,7 +17,7 @@ export default function Nav(){
                 </div>
                 <div className="tabs-nav">
                     <a href="#contact">
-                        <button type="submit" className="contact-btn">Get In Touch</button>
+                        <button type="submit" className="contact-btn">Message</button>
                     </a>
                 </div>
             </div>
