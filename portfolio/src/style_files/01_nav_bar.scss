@@ -31,14 +31,14 @@
             justify-content: center;
             align-items: center;
             &:hover{
-                border: 1px solid #6A03EE;
-                border-radius: 0.6rem;
+                box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                border-radius: 8px 8px 8px 8px;
             }
         }
         .contact-btn {
             background-color: #817FFD;
             border: none;
-            border-radius: 0.6rem;
+            border-radius: 8px 8px 8px 8px;
             width: 10.5rem;
             height: 2.8rem;
             font-style: normal;
@@ -50,7 +50,7 @@
             cursor: pointer;
             &:hover {
                 background-color: #9885d1;
-                border-radius: 0.6rem;
+                border-radius: 8px 8px 8px 8px;
             }
         }
         
