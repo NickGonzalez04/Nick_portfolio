@@ -11,11 +11,11 @@ export default function ProjectCard({ projects }){
             <div className="project-image">
                 <span href={projects.project_link}>
                     <img src={projects.img_src} alt="created website name and photo" />
-                <div className="projectTitle"><h1>{projects.project_title}</h1></div>
                 </span>
             </div>
             <div className="project-info">
-                    <p>{projects.description}</p>
+            <h1>{projects.project_title}</h1>
+                <p>{projects.description}</p>
             </div>
         </div>
     )
