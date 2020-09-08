@@ -3,12 +3,10 @@ import axios from 'axios';
 import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
-import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
 
  const Contact = () => {
      const [signUp, setSignUp] = useState({});
      const [isLoading, setIsLoading ] = useState(false);
-
 
     const handleChange = e => {
         console.log(e.target.value);
@@ -18,16 +16,16 @@ import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
         });
     };
 
-    const handleSubmit = e => {
-        e.preventDefault();
-        setIsLoading(true)
-        axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
-        .then(res => {
-            setIsLoading(false);
-            console.log(res);
-        })
-        .catch(err => { setIsLoading(false); console.log(err);})
-    }
+     const handleSubmit = e => {
+         e.preventDefault();
+         setIsLoading(true)
+         axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
+             .then(res => {
+                 setIsLoading(false);
+                 console.log(res);
+             })
+             .catch(err => { setIsLoading(false); console.log(err); })
+     }
 
     return(
         <>
@@ -42,11 +40,11 @@ import { GmailIcon } from '../assets_file/svg_file/03_gmail_icon';
                              <form onSubmit={handleSubmit}>
                                  <div className="contact-header">
                                      <div className="contact-h1">
-                                         <GmailIcon />
+
                                          <h1>CONTACT ME</h1>
                                      </div>
                                      <div className="contact-p">
-                                         <p>Feel free to contact me via LinkedIn, Twitter, or Email. I would love to connect with you! </p>
+                                         <p>Feel free to contact me via <a className='social' href="https://www.linkedin.com/in/nicholasgonzalez1/">LinkedIn</a>, <a className='socail' href='https://twitter.com/NickGonzalez__'>Twitter</a>, or Email. I would love to connect with you!😃 </p>
                                      </div>
                                  </div>
 
