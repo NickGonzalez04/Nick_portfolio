@@ -44,7 +44,7 @@
             font-size: 24px;
             line-height: 28px;
             font-variant: small-caps;
-            color: white;
+            color: #817FFD;
         }
     }
     .contact-p{
@@ -58,10 +58,11 @@
             font-weight: normal;
             font-size: 20px;
             line-height: 25px;
-            color: white;  
+            color: black;  
         }
         a{
-            color: white;
+            color: #817FFD;
+            text-decoration: none;
 
         }
     }
@@ -81,7 +82,7 @@
             width: 80%;
             border: 1px solid #dadce0;
             border-color: #080213;
-            background: rgba(30, 30, 32, 1);
+            background: linear-gradient(90deg, rgba(151, 150, 240, 0.3) 15.21%, rgba(251, 199, 212, 0.3) 100%);;
             color: rgba(255, 255, 255, 0.8);
             border-radius: 0.4rem;
 
@@ -91,35 +92,43 @@
             font-size: 16px;
             padding: 0rem 1rem
             }
+            :focus {
+                outline: none !important;
+                border:2px solid #817FFD;
+                box-shadow: 0 0 6px #719ECE;
+            }
         }
     }
 }
 
 
+
 textarea{
-    // border: 1px solid #dadce0;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-
-
-    background: rgba(30, 30, 32, 1);
-    opacity: 1;
+    background:linear-gradient(90deg, rgba(151, 150, 240, 0.3) 15.21%, rgba(251, 199, 212, 0.3) 100%);
+    // opacity: 70%;
     color: rgba(255, 255, 255, 0.8);
     border-radius: 0.4rem;
     width: 90%;
     height: 18rem;
     padding: 1rem 1rem;
     border-color: #080213;
+    
+}
+textarea:focus {
+    outline: none !important;
+    border:2px solid #817FFD;
+    box-shadow: 0 0 6px #719ECE;
 }
 
 
 
-
 .message{
-        background-color: #6A03EE;
+        background-color: #817FFD;
         border: none;
         border-radius: .4rem;
         width: 225px;
