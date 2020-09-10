@@ -8,7 +8,9 @@ export default function Nav(){
     return(
 
         <div className="header-nav">
-            <div className="navContainer">
+            <div className="navContainer"><div>
+                <h1>Nicholas Gonzalez</h1>
+            </div>
                 <div className="tabs-nav">
                     <a href="#projects">Projects</a>
                 </div>

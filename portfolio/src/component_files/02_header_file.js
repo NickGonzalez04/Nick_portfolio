@@ -8,13 +8,12 @@ import Nav from './01_nav_bar.js'
 export default function Header(){
 
 
-return(
+    return (
         <div className='header'>
-        <Nav />
-        <div className="section">
-
+            <Nav />
+            <div className="section">
+            </div>
         </div>
-    </div>
 
     )
 };
