@@ -40,7 +40,6 @@ import '../style_files/04_contact.scss'
                              <form onSubmit={handleSubmit}>
                                  <div className="contact-header">
                                      <div className="contact-h1">
-
                                          <h1>CONTACT ME</h1>
                                      </div>
                                      <div className="contact-p">
@@ -85,6 +84,7 @@ import '../style_files/04_contact.scss'
                              <button onClick={handleSubmit} className='message'>Send</button>
                          </div>
                      </div>
+                     
                  )}
          </>
      )
