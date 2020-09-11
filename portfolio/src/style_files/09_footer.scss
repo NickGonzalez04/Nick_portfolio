@@ -1,52 +1,9 @@
+// Simple footer 
 .footer-nav{
     display:flex;
-	justify-content: center;
-    height: 4rem;
+    justify-content: center;
+    height: 2rem;
     width: 100%;
     padding: 10px;
-    margin-bottom: 5rem;
-
-    .tabs-container{
-        display: flex;
-        
-    .tabs-nav{
-        display:flex;
-        margin: 20px 20px 5px 80px;
-        padding: 10px;
-        width: 6rem;
-        height: 2rem;
-        
-        a{
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 21px;
-            text-decoration: none;
-            color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            &:hover{
-                border-bottom: 4px solid #6A03EE;
-            }
-        } 
-    }
-}
-    .copy-R{
-        align-items: center;
-        width: 50%;
-        p{
-            width: 100%;
-            font-size: 18px;
-            line-height: 21px;
-            text-decoration: none;
-            color: black;
-            display: flex;
-            justify-content: center;
-            &:hover{
-                cursor: pointer;
-            }
-        }
-    }
+    margin-bottom: 2rem;
 }
