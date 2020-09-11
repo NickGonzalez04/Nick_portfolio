@@ -23,11 +23,11 @@ export default function Footer(){
 						<a href='#contact'>Contact</a>
 					</div>
 				</div>
-                <div>
-			<div className='icons'>
-				</div>
+            
+			<div className='copy-R'>
                 <p>Copyright © {new Date().getFullYear()} Nicholas Gonzalez Built with ☕️ </p>
-                </div>
+			</div>
+               
 			</div>
         </>
 		);

@@ -33,19 +33,17 @@
         } 
     }
 }
-    .icons{
-        display: flex;
-        justify-content: center;
+    .copy-R{
+        align-items: center;
         width: 50%;
-        a{
+        p{
+            width: 100%;
             font-size: 18px;
             line-height: 21px;
             text-decoration: none;
-            color: #FFFFFF;
-            margin: 0rem 3rem 0rem 3rem;
+            color: black;
             display: flex;
             justify-content: center;
-            align-items: center;
             &:hover{
                 cursor: pointer;
             }

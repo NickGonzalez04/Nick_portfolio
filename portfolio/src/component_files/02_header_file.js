@@ -9,11 +9,20 @@ export default function Header(){
 
 
     return (
+        <>
+         <Nav />
         <div className='header'>
-            <Nav />
             <div className="section">
+                <div className="section_2">
+                    <div>
+                        <h4>Software Engineer</h4>
+                        <h2>
+                            Nicholas Gonzalez
+                    </h2>
+                    </div>
+                </div>
             </div>
         </div>
-
+        </>
     )
 };

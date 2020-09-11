@@ -1,13 +1,19 @@
-
-.header-nav{
+// Nav Bar styling 
+.nav{
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     height: 4rem;
     padding: 10px;
-    width: 95%;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-bottom: 2px solid #e5e5e5;
+    max-width: 100%;
+    background-color: #ffffff;
+    .containerMain{
+        top: 0%;
+        position: fixed;
+        display:flex;
+        justify-content: flex-end;
+        width: 89%;
+        border-bottom: 2px solid #e5e5e5;
+        background-color: #ffffff;
     .navContainer1{
         width: 50%;
     }
@@ -25,7 +31,7 @@
             line-height: 21px;
             text-decoration: none;
             color: black;
-            width: 9rem;
+            width: 6rem;
             margin: .8rem;
             display: flex;
             height: 2.8rem;
@@ -58,4 +64,5 @@
     }
  
 }
+    }
 }
