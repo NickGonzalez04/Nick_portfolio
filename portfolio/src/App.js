@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 // Imported Components 
 import Header from './component_files/02_header_file';
 import Body from './component_files/03_projects';
