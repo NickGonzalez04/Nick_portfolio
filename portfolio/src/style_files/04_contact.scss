@@ -22,7 +22,7 @@
 .contact-form{
     max-width:1240px;
 	height: 40rem;
-	margin: 0rem 0rem 2rem 2rem;
+	margin: 4rem 4rem 4rem 4rem;
 	overflow: hidden;
     display: block;
     form{
@@ -37,9 +37,9 @@
         .contact-h1{
             display:flex;
             align-items: center;
-            margin-top: 2rem;
+            margin-bottom: .8rem;
         h1{
-            font-family: Roboto;
+            font-family: 'Lato', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
@@ -82,11 +82,10 @@
             height: 2rem;
             width: 80%;
             border: 1px solid #dadce0;
-            border-color: #080213;
+            border-color: #080213;;
             background: linear-gradient(90deg, rgba(151, 150, 240, 0.3) 15.21%, rgba(251, 199, 212, 0.3) 100%);;
             color: #111439;
             border-radius: 0.4rem;
-
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
@@ -111,7 +110,6 @@ textarea{
     font-size: 18px;
     line-height: 21px;
     background:linear-gradient(90deg, rgba(151, 150, 240, 0.3) 15.21%, rgba(251, 199, 212, 0.3) 100%);
-    // opacity: 70%;
     color: #111439;
     border-radius: 0.4rem;
     width: 90%;
@@ -148,5 +146,5 @@ textarea:focus {
         &:hover{
             background-color: #9885d1;
         }       
-}
+    }
 }

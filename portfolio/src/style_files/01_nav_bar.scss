@@ -8,19 +8,24 @@
     margin-left: 3rem;
     margin-right: 3rem;
     border-bottom: 2px solid #e5e5e5;
-    .navContainer{
+    .navContainer1{
+        width: 50%;
+    }
+    .navContainer2{
         display: flex;
+        justify-content: flex-end;
         align-items: center;
+        width:50%;
     .tabs-nav{
         a{
-            font-family: Roboto;
+            font-family: 'Lato', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
             line-height: 21px;
             text-decoration: none;
             color: black;
-            width: 6rem;
+            width: 9rem;
             margin: .8rem;
             display: flex;
             height: 2.8rem;

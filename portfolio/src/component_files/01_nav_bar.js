@@ -8,8 +8,9 @@ export default function Nav(){
     return(
 
         <div className="header-nav">
-            <div className="navContainer"><div>
-                <h1>Nicholas Gonzalez</h1>
+            <div className="navContainer1">
+            </div>
+            <div className="navContainer2"><div>
             </div>
                 <div className="tabs-nav">
                     <a href="#projects">Projects</a>
@@ -22,7 +23,7 @@ export default function Nav(){
                 </div>
                 <div className="tabs-nav">
                     <a href="#contact">
-                        <button type="submit" className="contact-btn">Message</button>
+                        <button type="submit" className="contact-btn">Get in Touch</button>
                     </a>
                 </div>
             </div>

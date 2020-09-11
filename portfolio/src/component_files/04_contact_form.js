@@ -43,7 +43,7 @@ import '../style_files/04_contact.scss'
                                          <h1>CONTACT ME</h1>
                                      </div>
                                      <div className="contact-p">
-                                         <p>Feel free to contact me via <a className='social' href="https://www.linkedin.com/in/nicholasgonzalez1/">LinkedIn</a>, <a className='socail' href='https://twitter.com/NickGonzalez__'>Twitter</a>, or Email. I would love to connect with you!😃 </p>
+                                         <p>Feel free to contact me via <a className='social' href="https://www.linkedin.com/in/nicholasgonzalez1/">LinkedIn</a>, <a className='socail' href='https://twitter.com/NickGonzalez__'>Twitter</a>, or Email below! I would love to connect with you!😃 </p>
                                      </div>
                                  </div>
 
