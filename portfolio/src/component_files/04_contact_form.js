@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import emailjs from 'emailjs-com';
+
 import Loading from './08_loader';
 // Styles
 import '../style_files/04_contact.scss'
@@ -16,15 +18,15 @@ import '../style_files/04_contact.scss'
         });
     };
 
-     const handleSubmit = e => {
+     const sendEmail = e => {
          e.preventDefault();
          setIsLoading(true)
-         axios.post('https://nick-portfoliobackend.herokuapp.com/send', signUp)
+         emailjs.sendForm('process.env.SERVICE_ID', 'process.env.TEMPLATE_ID',e.target, 'process.env.USER_ID')
              .then(res => {
                  setIsLoading(false);
-                 console.log(res);
+                 console.log(res.text);
              })
-             .catch(err => { setIsLoading(false); console.log(err); })
+             .catch(err => { setIsLoading(false); console.log(err.text); })
      }
 
     return(
@@ -37,7 +39,7 @@ import '../style_files/04_contact.scss'
              ) : (
                      <div id="contact" className="Form">
                          <div className='contact-form' >
-                             <form onSubmit={handleSubmit}>
+                             <form onSubmit={sendEmail}>
                                  <div className="contact-header">
                                      <div className="contact-h1">
                                          <h1>CONTACT ME</h1>
@@ -50,9 +52,9 @@ import '../style_files/04_contact.scss'
                                  <div className="input-wrapper">
                                      <div className="contact-input">
                                          <input
-                                             type='email'
-                                             name='email'
-                                             placeholder='Email'
+                                             type='text'
+                                             name='user_name'
+                                             placeholder='Name'
                                              value={signUp.email}
                                              onChange={handleChange}
                                              required
@@ -60,9 +62,9 @@ import '../style_files/04_contact.scss'
                                      </div>
                                      <div className="contact-input">
                                          <input
-                                             type='text'
-                                             name='name'
-                                             placeholder='Name'
+                                             type='email'
+                                             name='user_email'
+                                             placeholder='Email'
                                              value={signUp.firstName}
                                              onChange={handleChange}
                                              required
@@ -71,9 +73,9 @@ import '../style_files/04_contact.scss'
                                  </div>
                                  <div className="message-input">
                                      <textarea
-                                         value={signUp.message}
+                                    value={signUp.message}
                                          name='message'
-                                         type='text'
+                                         type='submit'
                                          placeholder='Message...'
                                          onChange={handleChange}
                                          required
@@ -81,7 +83,7 @@ import '../style_files/04_contact.scss'
                                  </div>
                              </form>
 
-                             <button onClick={handleSubmit} className='message'>Send</button>
+                             <button onClick={sendEmail} className='message'>Send</button>
                          </div>
                      </div>
                      

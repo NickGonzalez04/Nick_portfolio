@@ -1,61 +1,67 @@
-
-.header-nav{
-    display:flex;
-    justify-content: flex-end;
-    height: 4rem;
-    padding: 10px;
-    width: 95%;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-bottom: 2px solid #e5e5e5;
-    .navContainer1{
-        width: 50%;
-    }
-    .navContainer2{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width:50%;
-    .tabs-nav{
-        a{
-            font-family: 'Lato', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 21px;
-            text-decoration: none;
-            color: black;
-            width: 9rem;
-            margin: .8rem;
-            display: flex;
-            height: 2.8rem;
-            justify-content: center;
-            align-items: center;
-            &:hover{
-                box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.12);
-                border-radius: 8px 8px 8px 8px;
-            }
-        }
-        .contact-btn {
-            background-color: #817FFD;
-            border: none;
-            border-radius: 8px 8px 8px 8px;
-            width: 10.5rem;
-            height: 2.8rem;
-            font-style: normal;
-            font-weight: 500;
-            font-family: inherit;
-            font-size: 18px;
-            color: #ffffff;
-            text-align: center;
-            cursor: pointer;
-            &:hover {
-                background-color: #9885d1;
-                border-radius: 8px 8px 8px 8px;
-            }
-        }
-        
-    }
- 
-}
+// Nav Bar styling
+.nav {
+	display: flex;
+	justify-content: center;
+	height: 4rem;
+	padding: 10px;
+	max-width: 100%;
+	background-color: #ffffff;
+	.containerMain {
+		top: 0%;
+		position: fixed;
+		display: flex;
+		justify-content: flex-end;
+		width: 89%;
+		border-bottom: 2px solid #e5e5e5;
+		background-color: #ffffff;
+		.navContainer1 {
+			width: 50%;
+		}
+		.navContainer2 {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			width: 50%;
+			.tabs-nav {
+				a {
+					font-family: 'Lato', sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 18px;
+					line-height: 21px;
+					text-decoration: none;
+					color: black;
+					width: 6rem;
+					margin: 0.8rem;
+					display: flex;
+					height: 2.8rem;
+					justify-content: center;
+					align-items: center;
+					&:hover {
+						box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1),
+							0 4px 4px 0 rgba(0, 0, 0, 0.12);
+						border-radius: 8px 8px 8px 8px;
+					}
+				}
+				.contact-btn {
+					background-color: #817ffd;
+					border: none;
+					border-radius: 8px 8px 8px 8px;
+					width: 10.5rem;
+					height: 2.8rem;
+					font-style: normal;
+					font-weight: 500;
+					font-family: inherit;
+					font-size: 18px;
+					color: #ffffff;
+					text-align: center;
+					cursor: pointer;
+					&:hover {
+						background-color: #9885d1;
+						border-radius: 8px 8px 8px 8px;
+					}
+				}
+			}
+		}
+	}
 }
