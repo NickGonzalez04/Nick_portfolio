@@ -2,9 +2,7 @@
 
 # Personal Portfolio 
 
-<br>
-[Image](./portfolio/src/assets_file/png_file/portfolio_sample.png)
-<br>
+![Image](./portfolio/src/assets_file/png_file/portfolio.png)
 
 ## Table of Contents
 
