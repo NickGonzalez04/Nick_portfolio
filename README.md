@@ -3,7 +3,7 @@
 # Personal Portfolio 
 
 <br>
-![Image](./portfolio/src/assets_file/png_file/portfolio_sample.png)
+[Image](./portfolio/src/assets_file/png_file/portfolio_sample.png)
 <br>
 
 ## Table of Contents
@@ -19,9 +19,9 @@
   - `react`
   - `react-dom`
   - `react-router`
-  - `styled-components`
+  - `SCSS`
   - `node-sass`
-  - `axios`
+  - `EmailJs`
 
 - Once the dependencies are finished installing, use the `yarn start` command inside the portfolio directory to open the portfolio app in your local browser of choice
 
@@ -29,8 +29,8 @@
 
 - [React](https://reactjs.org/)
 - [React Router](https://github.com/ReactTraining/react-router)
-- [Styled Components](https://www.styled-components.com/)
-- [Axios](https://www.npmjs.com/package/axios)
+- [SCSS](https://sass-lang.com/)
+- [EmailJs](https://www.emailjs.com)
 
 ### Author 
 
