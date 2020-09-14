@@ -12,7 +12,7 @@ export default function Page() {
                 <div className="projects">
                     <div className="cards-container">
                         <div className="project-header">
-                            <h1>🚀  Projects</h1>
+                            <h1> Projects 🚀 </h1>
                         </div>
                         {project_info.map(projects => (
                             <ProjectCard key={projects.img_src} projects={projects} />
