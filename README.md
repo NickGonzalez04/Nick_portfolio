@@ -1,5 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3b9c9e4e-93e4-4879-8123-a2ccd4d1f766/deploy-status)](https://app.netlify.com/sites/nicholas-gonzalez/deploys)
-#
+
 
 # Personal Portfolio 
 
