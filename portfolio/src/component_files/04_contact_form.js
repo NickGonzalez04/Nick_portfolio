@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import emailjs from 'emailjs-com';
 
 import Loading from './08_loader';
@@ -21,12 +20,18 @@ import '../style_files/04_contact.scss'
      const sendEmail = e => {
          e.preventDefault();
          setIsLoading(true)
-         emailjs.sendForm('process.env.SERVICE_ID', 'process.env.TEMPLATE_ID',e.target, 'process.env.USER_ID')
+         let service_id = 'service_75qncw6';
+         let template_id = 'template_yavsgr6';
+         let user_id = 'user_nt7HV08gt2wGf1mlZRKhM';
+         emailjs.send(service_id, template_id, signUp, user_id)
              .then(res => {
                  setIsLoading(false);
-                 console.log(res.text);
-             })
-             .catch(err => { setIsLoading(false); console.log(err.text); })
+                 console.log('SUCCESS!', res.status, res.text);
+                
+             }, (err => { 
+                 setIsLoading(false); 
+                 console.log('...Error', err);
+             }));
      }
 
     return(
@@ -39,7 +44,7 @@ import '../style_files/04_contact.scss'
              ) : (
                      <div id="contact" className="Form">
                          <div className='contact-form' >
-                             <form onSubmit={sendEmail}>
+                             <form id="form" onSubmit={sendEmail}>
                                  <div className="contact-header">
                                      <div className="contact-h1">
                                          <h1>CONTACT ME</h1>
@@ -65,7 +70,7 @@ import '../style_files/04_contact.scss'
                                              type='email'
                                              name='user_email'
                                              placeholder='Email'
-                                             value={signUp.firstName}
+                                             value={signUp.first_name}
                                              onChange={handleChange}
                                              required
                                          />
@@ -73,16 +78,15 @@ import '../style_files/04_contact.scss'
                                  </div>
                                  <div className="message-input">
                                      <textarea
-                                    value={signUp.message}
                                          name='message'
                                          type='submit'
                                          placeholder='Message...'
+                                         value={signUp.message}
                                          onChange={handleChange}
                                          required
                                      />
                                  </div>
                              </form>
-
                              <button onClick={sendEmail} className='message'>Send</button>
                          </div>
                      </div>
